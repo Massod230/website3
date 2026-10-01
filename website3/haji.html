@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+<style>
+    .navbar{
+        width: 120%;
+        display: flex;
+        background-color: aqua;
+        justify-content: space-between;
+        align-items: end;
+    }
+    .navbar button{
+        
+    }
+
+    .nav{
+        width: 70%;
+        display: flex;
+        background-color: coral;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+    }
+
+
+    .d-flex{
+      display: flex;
+      justify-content: center;
+    }
+
+    .box{
+        height: 100vh;
+        width:100%;
+        display: flex;
+    }
+    .box1{
+        width: 50%;
+        height: 100vh;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bo1{
+        width: 70%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .bo1 button{
+        display: flex;
+        justify-content: center;
+        width: 83px;
+        margin-left: 190px;
+        padding: 5px;
+        width: 95px;
+        border-radius: 6px;
+        border: none;
+        background-color: forestgreen;
+        font-weight: 600;
+
+
+        
+    }
+    .box2{
+        width:50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bo2{
+        height: 70vh;
+        width: 65%;
+        
+    }
+    .main{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+    .ab{
+        width: 80%;
+        height: 19vh;
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .img{
+        height: 15vh;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .tx{
+        width: 100%;
+        height: 17vh;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .te{
+       width: 100%;
+       height: 12vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       
+    }
+    .xy{
+        width:100%;
+        height:70vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    .z{
+        width:15%;
+        height:30vh;
+        margin:20px;
+        text-align: center;
+        margin-top: 80px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .w{
+        width:15%;
+        height:30vh;
+        margin: 20px;
+        text-align: center;
+        margin-top: 80px;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .f{
+        width: 15%;
+        height: 30vh;
+        margin:20px;
+        text-align: center;
+        margin-top: 80px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .g{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+    }
+    .g1{
+        width: 50%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .g7{
+        width: 60%;
+        height: 60vh;
+    }
+
+    .tae{
+        margin-top: 43px;
+        width: 50%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    
+    .t8{
+        width: 70%;
+        height: 60vh;
+    }
+
+     .t8>button{
+        background-color: forestgreen;
+        font-weight:bold;
+        color: white;
+        width: 24%;
+        padding: 3px;
+        border: none;
+    }
+    .ach{
+        margin-top: 15px;
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+    .ah{
+        margin-bottom: 45px;
+        width: 100%;
+        height: 9vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ah>h3{
+        color: forestgreen;
+        font-weight: 700;
+    }
+    .ac{
+        width: 50%;
+        height: 50vh;
+        display: flex;   
+    }
+    .ut{
+        width: 85%;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px; 
+    }
+     .ut>h2{
+        color: forestgreen;
+        font-weight: bold;
+    }
+    .ax{
+          width: 50%;
+        height: 50vh;
+        display: flex;
+    }
+     .dabbas{
+        width:45% ;
+        height:40vh ;
+        margin-left: 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+     .daba{
+        width: 40%;
+        height: 15vh;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+     .wrr{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .n5{
+        width: 50%;
+        height: 65vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+     .n50{
+        width: 60%;
+        height: 60vh;
+    
+        margin-right: 40%;
+    }
+    .n6{
+         width: 50%;
+        height: 65vh;
+        display: flex;
+        align-items: center;
+
+    }
+    .n60{
+        width: 85%;
+        height: 55vh;
+    }
+     .n60>button{
+        color: white;
+        background-color: forestgreen;
+        padding: 8px;
+        width: 26%;
+        border: none;
+    }
+     .jbb{
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        
+        
+    }
+     .jb1{
+        position: relative;
+        right: 40%;
+        width: 30vw;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+       .j10{
+        width: 60%;
+        height:60vh ;
+        
+    }
+      .jb2{
+        width: 50%;
+        height: 87vh;
+        
+    }
+     .j20{
+        padding-top: 18px;
+    
+        width: 80%;
+        height: 84vh;
+        position: relative;
+        right: 40%;
+    }
+    .yuu{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .yu1{
+        width:90%;
+        height: 27vh;
+        display: flex;
+        justify-content: center;
+    }
+       .yu10{
+        width: 60%;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .yu2{
+        width: 95%;
+        HEIGHT:63vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: blue;
+        
+    }
+     .yu20{
+        width: 25%;
+        height: 44vh;
+        background-color: brown;
+        border: 2px solid black;
+        margin:  20px;
+        margin-top: -18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 12px;
+        gap: 30px;
+        border: none;
+        box-shadow: 10px 15px 15px forestgreen;
+
+        
+    }
+        .ab{
+        width: 73%;
+        height: 27vh;
+        background-color: white;
+        border: 2px solid black;
+        position: absolute;
+        bottom: -57px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    
+
+
+    }
+    .spp{
+        width: 100%;
+        height: 60vh;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+      .sp3{
+        width:70%;
+        height: 18vh;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     .sp30{
+        width:80% ;
+        height: 18vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column ;
+    }
+      .sp30 >h1{
+        font-weight: 500;
+    
+    }
+     .sp30 >button{
+        background-color: forestgreen;
+        color: white;
+        padding: 8px;
+        font-weight: 700;
+        border: none;
+        border-radius: 8px;
+
+    }
+     .sp4{
+        width: 90%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+    }
+    .sp41{
+        width: 25%;
+        height:30vh ;
+        display: flex;
+        flex-direction: column;
+        background-color: darkslategrey;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .sp41>h5{
+        font-weight: bold;
+
+
+
+    }
+        .sp42{
+        width: 50%;
+        height: 30vh;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding-top: 14px;
+        background-color:darkslategray;
+        color: white;
+
+    }
+
+
+</style>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Nexcent</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class=" navbar" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <a class="nav-link active" aria-current="page" href="#">Feature</a>
+        </li>
+        <a class="nav-link active" aria-current="page" href="#">Community</a>
+        </li>
+       <a class="nav-link active" aria-current="page" href="#">Blog</a>
+        </li>
+        <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+        </li>
+        <li>
+        <a class="nav-link active" aria-current="page" href="#"><button> Login</button></a>
+        </li>
+        <a class="nav-link active" aria-current="page" href="#"><button> Sign up</button></a>
+        </li>
+    </li>
+      </form>
+     </div>
+   </div>
+  </nav>
+
+
+    <div class="box">
+        <div class="box1">
+            <div class="bo1"> 
+                <h1 style="font-weight: bolder;"> Lesson and insight </h1>
+                <h1 style="color: forestgreen;">from 8 Years </h1>
+                <p>Where to grow your business as a photographer: site or social media?</p>
+                <button style=""> Register</button>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="bo2"> <img src="./Illustration.png" alt=""></div> </div>
+
+  
+    
+    
+    </div>
+    <div class="main">
+    <div class="ab">
+        <h1> Our Clients</h1>
+        <h6> We have been working with some Fortune 500+ clients</h6>
+       <div class="img">
+       <img src="./Logo (1).png" alt="" width="23px" height="23px">
+        <img src="./Logo (2).png" alt="" width="23px" height="23px">
+        <img src="./Logo (3).png" alt="" width="23px" height="23px">
+        <img src="./Logo (4).png" alt="" width="23px" height="23px">
+        <img src="./Logo (5).png" alt="" width="23px" height="23px">
+
+       </div>
+    </div> 
+    </div>
+
+    
+     
+<div class="tx">
+    <div class="te"> 
+  <h2> Our Community</h2>
+  <h7> Manage your entire community in a single system
+Who is Nextcent suitable for?</h7>    
+
+
+
+    </div>
+</div>
+
+
+
+<div class="xy">
+    <div class="z">
+    <p> icon
+Membership Organisations
+Our membership management software provides full automation of membership renewals and payments</p>
+    
+
+    </div>
+      <div class="w">
+      <p> icon
+National Associations
+Our membership management software provides full automation of membership renewals and payments</p>
+   
+
+     </div> 
+          <div class="f">
+          <p> icon2
+Clubs And Groups
+Our membership management software provides full automation of membership renewals and payments</p>
+        
+
+
+ </div> 
+</div>
+
+<div class="g">
+<div class="h">
+    <div class="img"> <img src="./Frame 35.png" alt="" > </div>
+   </div>
+<div class="tae">
+                <div class="t8">
+                    <h5 style="font-weight: 600;">
+                        The unseen of spending three years at Pixelgrade</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan
+                        quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
+                        tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar,
+                        aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+                        <button>Learn More</button>
+                </div>
+            </div>
+    </div>
+    
+    <div class="ah">
+    <h3>Achievements</h3>
+</div>
+<diV class="ach">
+    <div class="ac">
+<div class="ut">
+<p style="font-weight: 500;"> Helping a local</p>
+<h2>business reinvent itself</h2>
+<p style="font-weight: 500;">We reached here with our hard work and dedication</p>
+</div>
+
+ </div>
+<div class="ax">
+    <div class="dabbas">
+        <div class="daba">
+            <img src="./icon11.png">
+            <h6>2,245,341</h6>
+            <h6>Members</h6>
+
+  </div>
+          <div class="daba">
+            <img src="./Icon 12.png" alt="">
+            <h6>1,926,4361</h6>
+            <h6>Event Bookings</h6>
+          </div>
+            <div class="daba">
+                <img src="./icon 13.png" alt="">
+                <h6>46,328</h6>
+                <h6>Payments</h6>
+            </div>
+            <div class="daba">
+
+            </div>
+              <div class="daba">
+                <img src="./Icon 14.png" alt="">
+                <h6>828,867</h6>
+                <h6>Clubs</h6>
+              </div>
+
+  
+  
+
+    </div>
+
+
+
+
+</div>
+</div>
+    
+
+
+
+<div class="wrr">
+    <div  class="n5">
+
+        <div class="n50"> <img src="./Unlock1.png" alt=""></div>
+    </div>
+    <div class="n6">
+        <div class="n60">
+            <h2 style="font-weight: 600;">How to design your site footer like we did</h2>
+            <p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida</p>
+            <button>Learn More</button>
+
+
+      <div class="jbb">
+    <div class="jb1">
+        <div class="j10"><img src="./image 91.png" alt=""> </div> </div>
+    <div class="jb2">
+        <div class="j20"> 
+            <p>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+            <h5 style="padding: 12px; font-weight: 700; color: forestgreen;" > Tim Smith</h5>
+            <p style="padding: 19px;">British Dragon Boat Racing Association</p>
+            <img src="./lid1.svg" alt="" srcset="" style="padding-left: 26px;">
+            <img src="./lid2.svg" alt="" srcset="" style="padding-left: 26px;">
+            <img src="./lid3.svg" alt="" srcset="" style="padding-left: 26px;">
+            <img src="./lid4.svg" alt="" srcset="" style="padding-left: 26px;">
+            <img src="./lid5.svg" alt="" srcset="" style="padding-left: 26px;">
+            <img src="./lid6.svg" alt="" srcset="" style="padding-left: 26px;">
+            <h5 style="margin-top: 15px; color: forestgreen; font-weight: 700;"> Meet all customer <img src="./Right.svg" alt="" srcset=""></h5>      
+     
+      </div>
+
+    </div>
+
+  </div>       
+
+
+
+
+
+  
+<div class="yuu">
+    <div class="yu1"> 
+        <div class="yu10"> 
+            <h1 style="font-weight: bold;">Caring is the new marketing</h1>
+            <p>The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+        </div>
+    </div>
+<div class="yu2">
+    <div class="yu20"><img src="./image 20.png" alt="" width="100%" height="100%">
+        <div class="ab"> <h6 style="font-weight: bold; font-size: large;">Creating Streamlined Safeguarding Processes with OneRen</h6> <h6 style="padding-top: 50px ;font-weight: bolder; font-size: larger; color: forestgreen;">Read More <img src="./Right.svg" alt="" srcset=""></h6> </div> </div>
+     <div class="yu20"> <img src="./image 21.png" alt="" width="100%" height="100%">
+        <div class="ab"><h6 style="font-weight: bold; font-size: large ;">What are your safeguarding responsibilities and how can you manage them?</h6> <h6 style="padding-top: 37px ;font-weight: bolder;font-size: larger;color: forestgreen; ">Read More <img src="./Right.svg" alt="" srcset=""></h6></div>
+     </div>
+      <div class="yu20"><img src="./image 22.png" alt=""width="100%"height="100%">
+        <div class="ab">  <h6 style="font-size: large; font-weight: bold;">Revamping the Membership Model with Triathlon Australia</h6><h6 style="padding-top: 50px; font-weight: bolder; font-size: larger; color: forestgreen;" >Read More <img src="./Right.svg" alt="" srcset=""></h6> </div> </div>
+    
+
+</div>
+ </div>
+
+
+
+
+
+ <div class="spp"> 
+    <div class="sp3"> 
+        <div class="sp30"> <h1>Pellentesque suscipit fringilla libero eu.</h1> <button>Get a Demo <img src="./Right.svg" alt="" style="color: white;"></button></div>
+    </div>
+    <div class="sp4">
+        <div class="sp41">
+            <h5>Nexcent</h5>
+            <p>Copyright © 2020 Nexcent ltd.
+
+All rights reserved</p>
+
+<h1><img src="./instagram1.png" alt="" width="23px" height="34px"></h1>
+<h1><img src="./twitter1.png" alt="" width="23px" height="34px"></h1>
+        </div>
+    <div class="sp42"> 
+        <ul style="list-style: none;">
+            <li style="font-weight: bold;">Company</li>
+            <li> About us</li>
+            <li>Conctact us</li>
+            <li>Blog</li>
+            <li>Pricing</li>
+            <li>Testimonial</li>
+        </ul>
+        <ul style="list-style: none;">
+            <li style="font-weight: bold;">Support</li>
+            <li>Help center</li>
+            <li> Service</li>
+            <li> Legal</li>
+            <li> Pivacy policy</li>
+            <li>Status</li>
+        </ul>
+        <ul style="list-style: none;">
+            <li style="font-weight: 500;"> Stay up to date</li>
+            <li> Your email address</li>
+            
+        </ul>
+        <ul style="list-style: none;">
+            <li><img src="./telegram.png" alt="" srcset="" width="28px" height="34px"></li>
+        </ul>
+    </div> 
+</div>
+</div>
+
+</body>
+</html>

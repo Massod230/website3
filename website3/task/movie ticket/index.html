@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎬 Movie Ticket Generator</h1>
+
+    <div class="form">
+        <input type="text" id="movie" placeholder="Movie Name">
+        <input type="text" id="name" placeholder="Customer Name">
+        <input type="text" id="seat" placeholder="Seat Number">
+        <input type="date" id="date">
+        <input type="time" id="time">
+        <button onclick="generateTicket()">Generate Ticket</button>
+    </div>
+
+    <div class="ticket" id="ticket">
+        <div class="left">
+            <h2 id="ticketMovie">Movie Name</h2>
+
+            <div class="info">
+                <p><strong>Name:</strong> <span id="ticketName"></span></p>
+                <p><strong>Seat:</strong> <span id="ticketSeat"></span></p>
+                <p><strong>Date:</strong> <span id="ticketDate"></span></p>
+                <p><strong>Time:</strong> <span id="ticketTime"></span></p>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="right">
+            <div class="barcode"></div>
+            <p>ADMIT ONE</p>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexcent</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+<style>
+    .navbar{
+      width: 100%;
+      display: flex;
+    }
+
+    .nav{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        font-weight: 600;
+    }
+
+    .d-flex{
+      display: flex;
+      justify-content: end;
+    }
+
+    .b1{
+      width: 107px;
+      text-transform: capitalize;
+      background-color: aliceblue;
+      color:blue;
+      border: 2px solid black;
+      padding: 5px;
+      font-weight: 600;
+      margin: 12px;
+      border-radius: 7px;
+      font-weight: bold;
+    }
+    .b2{
+      width: 107px;
+      font-weight: 600;
+      color: aliceblue;
+      background-color: forestgreen;
+      border: none;
+      margin: 12px;
+      border-radius: 7px;
+      text-transform: capitalize;
+    }
+
+    .brand {
+      width: 100%;
+      text-transform: capitalize;
+      color: black;
+      text-decoration: none;
+      font-weight: bolder;
+      font-size: x-large;
+      margin-left: 10px;
+
+
+
+
+    }
+
+    .male {
+      width: 100px;
+      height: 90vh;
+      display: flex;
+
+    }
+
+    .m1{
+      width: 50%;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .m10 {
+      width: 70%;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .le {
+      width: 100%;
+      height: 15vh;
+      margin-bottom: 30px;
+
+    }
+
+    .le>h1 {
+      font-weight: bolder;
+    }
+
+    .ce {
+      width: 100px;
+      height: 18vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .cebutton {
+      color: white;
+      background-color: forestgreen;
+      border: none;
+      border-radius: 8px;
+      width: 120px;
+      padding: 7px;
+    }
+
+    .m2 {
+      width: 50%;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .m12 {
+      width: 65%;
+      height: 65vh;
+    }
+
+    .here {
+      width: 1005;
+      height: 100vh;
+
+    }
+
+    .te {
+      width: 100px;
+      height: 18vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .tx {
+      width: 50%;
+      height: 17vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .te>h3 {
+      font-weight: bold;
+    }
+
+    .ig {
+      width: 100;
+      height: 10vh;
+      display: flex;
+      justify-content: center;
+    }
+
+    .i {
+      width: 90%;
+      height: 10vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .ty {
+      width: 100%;
+      height: 23vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .tz{
+      width: 100%;
+      height: 33vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .tz>h3 {
+      font-weight: bold;
+      color: forestgreen;
+    }
+
+    .boxy {
+      width: 100%;
+      height: 50vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .box{
+      width: 100%;
+      height: 100vh;
+      background-color: blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .bo3 {
+      width: 100%;
+      height: 100vh;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+      box-shadow: 12px 18px 10px whitesmoke;
+
+
+    }
+
+    .tas {
+      width: 100%;
+      height: 80vh;
+      display: flex;
+
+    }
+
+    .tas {
+      width: 50%;
+      height: 70vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .t8 {
+      width: 70%;
+      height: 60vh;
+    }
+    .t8>button{
+      background-color: forestgreen;
+      font-weight: bold;
+      color: white;
+      width: 24%;
+      padding: 3px;
+      border: none;
+    }
+    .ach{
+      margin-top: 15px;
+      width: 100;
+      height: 50%;
+      display: flex;
+    }
+    .ah{
+      margin-bottom: 45px;
+      width: 100%;
+      height: 9vh;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .ah>h3{
+      color: forestgreen;
+      font-weight: 700;
+    }
+    .ac{
+      width: 50%;
+      height: 50vh;
+      display: flex;
+
+
+    }
+    .ut{
+      width: 85%;
+      height: 20vh;
+      display: flex;
+      flex-direction: column;
+      margin-left: 50px;
+    }
+    .ut>h3{
+      color: forestgreen;
+      font-weight: bold;
+    }
+    .ax{
+      width: 50%;
+      height: 50vh;
+      display: flex;
+
+
+
+    }
+    .dabbas{
+      width: 45%;
+      height: 40vh;
+      margin-left: 40px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .daba{
+      width: 40%;
+      height: 15vh;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .wrr{
+      width: 100%;
+      height: 80vh;
+      justify-content: center;
+      align-items: center;
+    }
+    .n5{
+      width: 50%;
+      height: 65%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+    .n50{
+      width: 60%;
+      height: 60vh;
+    }
+    .n6{
+      width: 50%;
+      height: 65vh;
+      display: flex;
+      align-items: center;
+
+
+    }
+    .n60{
+      width: 85%;
+      height: 55vh;
+    }
+    .n60>button{
+      color: white;
+      background-color: forestgreen;
+      padding: 8px;
+      width: 26%;
+      border: none
+    }
+    .jbb{
+      width: 100px;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .jb1{
+      width: 45%;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .j10{
+      width: 60%;
+      height:60vh;
+    }
+    .jb2{
+      width: 50%;
+      height: 87vh;
+    }
+    .j20{
+      padding-top: 18px;
+      width: 80%;
+      height: 84vh;
+    }
+    .yuu{
+      width: 100%;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .yu1{
+      width:90%;
+      height: 27vh;
+      display: flex;
+      justify-content: center;
+    }
+    .yu10{
+      width: 60%;
+      height: 25vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .yu2{
+      width: 95%;
+      height: 63vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .yu20{
+      width: 25%;
+      height: 44vh;
+      background-color: brown;
+      border: 2px solid black;
+      margin: 20px;
+      margin-top: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      border-radius: 12px;
+      gap: 30px;
+      border: none;
+      box-shadow: 10px 15px 15px forestgreen;
+    }
+      .ab{
+        width: 72%;
+        height: 27vh;
+        background-color: white;
+        border: 2px solid black;
+        position: absolute;
+        bottom: 57px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      border: none;
+      }
+      .spp{
+        width:100px;
+        height: 60vh;
+        margin-top: 18%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .sp3{
+        width:70%;
+        height: 18vh;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .sp30{
+        width:80%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .sp30 >h1{
+         font-weight: 500;
+      }
+      .sp30 >button{
+        background-color: forestgreen;
+        color: white;
+        padding: 8px;
+        font-weight: 700;
+        border: none;
+        border-radius: 8px;
+
+      }
+      .sp4{
+        width: 90%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+      }
+      .sp41{
+        width: 25%;
+        height:30vh;
+        display: flex;
+        flex-direction: column;
+        background-color: darkslategray;
+        color: whoite;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .sp41>h5{
+        font-weight: bold;
+
+
+
+      }
+
+      .sp42{
+        width: 50%;
+        height: 30vh;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding-top: 14px;
+        background-color: darkslategray;
+        color: white;
+
+      }
+
+  </style>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Nexcent</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class=" navbar" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <a class="nav-link active" aria-current="page" href="#">Feature</a>
+        </li>
+        <a class="nav-link active" aria-current="page" href="#">Community</a>
+        </li>
+       <a class="nav-link active" aria-current="page" href="#">Blog</a>
+        </li>
+        <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+        </li>
+        <li>
+        <a class="nav-link active" aria-current="page" href="#"><button> Register Now</button></a>
+        </li>
+    </li>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<div class="box" >
+  
+     <div class="box1">
+      <h1> Lessons and insights</h1>
+      <h1 class="bu" style="colors: forrstgreen"> from 8 years</h1>
+     
+      <p> Where to grow your business as a photographer site or social media</p>
+      <button register></button>
+      </div>
+      <div class="box2">  
+        
+      </div>
+
+</div>
+
+
+
+</div>
+
+</div>
+<div class="box">
+  <div class="box"> <img src=""
+</div>
+
+
+
+
+
+<div class="hero">
+  <div class="te">
+      <div class="tx">
+          <h3> Our Clients</h3>
+           <p> We have been working with some fortune 500+Clients</p>
+      </div>
+  </div>
+
+  <div class="ig">
+  <div class="i"> 
+        <img src=""
+
+
+
+
+
+
+  </div>    
+  </div>
+
+  <div class="ty">
+       <div class="tx">
+        <h3> Our Community</h3>
+        <p>Manage your entire Community in a single system
+            Who is Nexcent suitable for</p>
+        
+  </div>
+</div>
+  <div class="boxy">
+      <div class="bo3">
+
+      <h4 style="font-weight: bold;">Membership Organisation</h4>
+      <p>Our Membership managment software provides full automation of </p>
+  </div>
+       <div class="bo3">
+
+        <h6 style="font-weight: bold;">National Association</h6>
+        <p>Our Membership managment software provides full automation of</p>
+       <div>
+       <div class="b03">
+        
+        <h6 style="font-weight: bold;">Clubs And Groups</h6>
+        <p>Our Membership managment software provides full automation of</p>
+       </div>
+
+  </div>
+
+  <div class="tas">
+    <div class="tas">
+       <div class="t7">
+  </div>
+  <div class="tas">
+    <div class="t8">
+      <h5 style="font-weight: 600;">
+     the common of spending three years of pixelgrade</h5>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus neque voluptatum sint. Itaque voluptates dolore alias temporibus laborum odit, maiores iusto. Ullam illum pariatur vero ratione ipsam autem repudiandae expedita?
+     Perferendis earum neque animi modi ullam cupiditate vitae molestiae ratione rerum! Fugiat atque voluptatibus excepturi rerum neque eaque asperiores explicabo consequuntur? Ex ullam et recusandae nobis voluptatum quas pariatur soluta.
+     Nam dolores optio eius quasi eos assumenda provident recusandae esse nesciunt? Beatae obcaecati culpa praesentium rem quibusdam sapiente officia, adipisci atque, perferendis aut non tempore est laudantium, vitae provident ut.
+    <button>Learn Manage</button>
+     </div>
+  </div>
+  </div>      
+
+  <div class="ah">
+     <h3>Achivement</h3>
+  </div>
+  <div class="ach">
+    <div class="ac">
+  <div class="ut">
+  <p style="font-weight: 500;"> Helping a local</p>
+  <h2>business reinvent itself</h2>
+  <p style="font-weight: 500;">We reached here with our hard work and decation</p>
+  </div>
+
+  </div>
+  <div class="ax">
+      <div class="dabbas">
+         <div class="daba">
+
+          <h6></h6>
+</div>
+    
+</body>
+</html>
